@@ -1,4 +1,4 @@
-#1/bin/bash
+#!/bin/bash
 apt-get update
 apt-get install apt-transport-https ca-certificates curl software-properties-common -y
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
